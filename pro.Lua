@@ -1,4 +1,4 @@
-_G.amogus = true
+
 
 while _G.amogus do
 getgenv().WalkSpeedValue = 50; --set your desired walkspeed here
