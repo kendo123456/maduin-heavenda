@@ -1,7 +1,7 @@
 
 
 while _G.amogus do
-getgenv().WalkSpeedValue = 50; --set your desired walkspeed here
+getgenv().WalkSpeedValue = 50; --set your walkspeed here
 local Player = game:service'Players'.LocalPlayer;
 Player.Character.Humanoid:GetPropertyChangedSignal'WalkSpeed':Connect(function()
 Player.Character.Humanoid.WalkSpeed = getgenv().WalkSpeedValue;
